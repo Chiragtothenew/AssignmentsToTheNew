@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <h1>COLOURS OF THE UNDERLYING PARAGRAPHS WITH CLASS ENDING WITH "new" HAS BEEN CHANGED TO BLUE</h1>
+    <P class="renew" id="testpara1">Test Paragraph1</P>
+    <P class="newnew" id="testpara2">Test Paragraph2</P>
+
+    <script>
+        $(document).ready(function () {
+            $("[class*=new]").css("color","blue")
+        });
+    </script>
+</body>
+
+</html>

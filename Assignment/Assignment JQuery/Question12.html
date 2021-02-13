@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+        <h1>CLICK THE FIRST BUTTON TO SEE THE EFFECT OF THE PARENT ON CONSOLE</h1>
+        <h2>CLICK THE SECOND BUTTON TO SEE THE CHILD STOPPING THE EFFECT OF PARENT ON THE CONSOLE</h2>
+    <button id="button">See the effect of the parent</button>
+    <div class="div"><button>Cancel Event through child</button></div>
+    
+
+    <script>
+        $(document).ready(function () {
+            $('#button').click(function(){console.log("Called Parent")});
+            $('.div').click(function(){console.log("Called Parent")}).children().click(function(e){e.stopPropagation()})
+
+        });
+
+
+    </script>
+</body>
+
+</html>

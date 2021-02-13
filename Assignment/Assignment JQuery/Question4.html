@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <h1>TRY CLICKING ON THE BUTTON</h1>
+    <button>Disabled</button>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $('button').attr("disabled", "disabled");
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <h1>TRY CLICKING ON THE 'a' TAG BELOW ONLY TO GET "NOWHERE"</h1>
+    <a id='a' href='http://www.google.com'>GOOGLE<p></a>
+
+    <script>
+        $(document).ready(function () {
+
+            $('#a').click(function (e) {
+                e.preventDefault();
+            });
+
+        });
+
+
+    </script>
+</body>
+
+</html>

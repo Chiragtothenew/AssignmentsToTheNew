@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <H1>THE DIV SHOWS THE THE FOLLOWING MESSAGE : NOW CLICK ON THE BUTTON TO REPLACE DIV WITH P TO DISPLAY A NEW MESSAGE</H1>
+    <button>Change div to p</button>
+    <div id="main">
+        <P class="target">Changing Font Size</P>
+    </div>
+
+    <script>
+        $(document).ready(function () {$("button").click(function(){$("div").replaceWith("<p> Replaced with P tags</p>")})
+            });
+
+    </script>
+</body>
+
+</html>

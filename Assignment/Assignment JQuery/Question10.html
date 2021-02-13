@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <div id="select">Select Courses</div>
+    <div class="course1">C++</div>
+    <div class="course1">C</div>
+    <div class="course1">Java</div>
+    
+    
+    <h1>HOVER ON "SELECT COURSES TO SEE THE EFFECT</h1>
+
+    <script>
+        $(document).ready(function () {
+            $(".course1").hide()
+            $("#select").hover(function(){$(".course1").slideToggle("slow")})
+
+
+        });
+
+
+    </script>
+</body>
+
+</html>

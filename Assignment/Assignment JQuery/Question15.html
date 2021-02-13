@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<h1>JSON WILL BE DISPLAYED HERE AFTER IT IS STRINGIFIED</h1>
+    <p id="testpara1">JSON WILL BE DISPLAYED HERE</p>
+    <script>
+        $(document).ready(function () {
+            $.ajax({ url: 'https://jsonplaceholder.typicode.com/todos/1', dataType:'json', success: function (resultdata) { $('#testpara1').html(JSON.stringify(resultdata)) } })
+
+        });
+
+
+    </script>
+</body>
+
+</html>

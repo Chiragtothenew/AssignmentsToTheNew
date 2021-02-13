@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+        <h1>WE HAVE FOLLOWING ELEMENTS : 3 PARAGRAPHS AND A DIV WITH LINE"Changing the font size"</h1>
+        <h2>VISIT THE CONSOLE TO VIEW THEIR RESPECTIVE HEIGHTS IN THE RESPECTIVE ORDER</h2>
+    <P class="renew" id="testpara1">Test Paragraph1</P>
+    <P class="renew" id="testpara2">Test Paragraph2</P>
+    <P class="renew" id="testpara3">Test Paragraph 3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</P>
+    
+    <div  class="renew" id="main">
+        <P class="target">Changing Font Size</P>
+    </div>
+    
+    <script>
+        $(document).ready(function () {
+            $(".renew").each(function(){console.log($(this).height())})
+
+        });
+
+
+    </script>
+</body>
+
+</html>
