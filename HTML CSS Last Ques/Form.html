@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>HTML FORM</title>
+        <style>
+        input 
+        {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            background-color:rgb(72, 139, 228);
+        }
+
+        select 
+        {
+            width: 100%;
+            padding: 12px 20px;
+            border: none;
+            background-color: rgb(72, 139, 228);
+            border-radius: 8px;
+        }
+
+        #titl
+        {
+            background-color:rgb(211, 205, 205);
+            border-radius: 8px;
+            border: 1px;
+        }
+
+        #desc
+        {
+            background-color:rgb(211, 205, 205);
+            border-radius: 8px;
+            border: 5px;
+            width: 100%;
+        }
+
+        #ver
+        {
+            background-color:rgb(211, 205, 205);
+            border-radius: 8px;
+            border: 1px;
+        }
+
+        #myfile
+        {
+            background-color:whitesmoke;
+            width: 40%;
+        }
+
+        #head
+        { 
+            background-color:rgb(71, 63, 63);
+            color:whitesmoke;
+        }
+
+        #vers
+        {
+            width: 40%;
+            border: 1px;
+        }
+
+        .container 
+        {
+           display: block;
+           position: relative;
+           padding-left: 35px;
+           margin-bottom: 12px;
+           cursor: pointer;
+           font-size: 20px;
+           border: 1px;
+        }
+
+        .button 
+        {
+           float:right;
+           background-color: rgb(72, 139, 228) ; 
+           border-radius: 8px;
+           border: none;
+           color: white;
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           align-self: baseline;
+        }
+
+        header
+        {
+           background-color: rgb(196, 193, 182) ; 
+           color: whitesmoke;
+           padding: 15px 32px;
+           text-align: left;
+           display: inline-block;
+           font-size: 16px;
+           align-self: baseline;
+           width: 92%;
+           height: 50px;
+        }
+
+        footer
+        {
+           
+           background-color: rgb(196, 193, 182) ; 
+           color: whitesmoke;
+           padding: 15px 32px;
+           text-align: left;
+           display: inline-block;
+           font-size: 16px;
+           align-self: baseline;
+           width: 95%;
+           height: 50px;
+        }
+
+        html, body 
+        {
+           margin : 0;
+           padding : 0;
+        }
+
+        .myDiv
+        {
+           position: absolute;
+           left: 20%;
+           right: 20%;
+           
+        }
+
+
+        </style>
+    </head>
+    <div class="myDiv">
+    <header><h1>Bug Report</h1></header>
+    
+
+    <form id="form">
+
+        <label for="titl"><h3>Title :</h3></label><br>
+        <input type="text" id="titl" name="title"><br>
+        <h3>Description : </h3><br>
+
+       <textarea id="desc" name="desc" rows="8" >
+       </textarea>
+        <br>
+
+        <label for="OS"><h3>Operating System :</h3></label><br>
+        <select name="OS" id="OPS">
+            <option value="Windows">Windows</option>
+            <option value="Linux">Linux</option>
+            <option value="MAC Os">MAC</option>
+        </select>
+        <br>
+
+        <label for="cars"><h3>Operating System :</h3></label><br>
+        <select name="cars" id="cars">
+            <option value="Windows">Windows</option>
+            <option value="Linux">Linux</option>
+            <option value="MAC Os">MAC</option>
+        </select>
+        <br>
+
+        <div id ="vers">
+        <label for="ver"><h3>Version :</h3></label><br>
+        <input type="text" id="ver" name="version"><br>
+        <br>
+        </div>
+        <br>
+
+        <label for="prof"><h3>Profession :</h3></label><br>
+        <select name="prof" id="prof">
+          
+            <option value="volvo">Teacher</option>
+            <option value="saab">Working</option>
+            <option value="saab">Student</option>
+
+          
+        </select>
+        <br>
+
+        <label for="myfile"><h3>Attachment :</h3></label><br>
+        <input accept="file_extension|audio/*|video/*|image/*|media_type" type="file" id="myfile" name="myfile">
+        <br>
+
+        <footer><button class ="button" type="submit" form="form" value="Submit">Send</button></footer>
+
+    </div>
+
+    
+        
+
+      </form>
+</html>

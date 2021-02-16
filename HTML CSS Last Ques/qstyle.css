@@ -1,0 +1,155 @@
+*{
+    background-color: black;
+}
+
+.header1 h1{
+    color: grey;
+    font-style: bold;
+    margin-left: 50px;
+    
+}
+
+.firstdiv{
+    background-color: antiquewhite;
+    height: 1000px;
+    width: 1350px;
+    margin-left: 55px;
+    position: relative;
+
+}
+
+.seconddiv{
+    background-color:black;
+    border-radius: 2px;
+    position: absolute;
+    height: 360px;
+    width: 960px;
+    left:200px;
+    top: 35px;
+
+}
+
+.thirddiv{
+    height: 315px;
+    width: 215px;
+    background-color: black;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+
+.fourthdiv{
+    height: 315px;
+    width: 215px;
+    background-color: black;
+    position: absolute;
+    top: 600px;
+    left: 450px;
+}
+.fifthdiv{
+    height: 315px;
+    width: 215px;
+    background-color: black;
+    position: absolute;
+    top: 600px;
+    left: 700px;
+}
+.sixthdiv{
+    height: 315px;
+    width: 215px;
+    background-color: black;
+    position: absolute;
+    top: 600px;
+    left: 950px;
+}
+.seventhdiv{
+    width: 960px;
+    height: 80px;
+    background-color: lightgrey;
+    left: 200px;
+    top: 425px;
+    position: absolute;
+}
+.seventhdiv p{
+    color: white;
+    background-color: lightgrey;
+}
+
+.eightdiv{
+    background-color: antiquewhite;
+    top: 525px;
+    left: 200px;
+    
+    position: absolute;
+
+}
+.eightdiv h4{
+    color:white;
+    background-color: lightgray;
+}
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    margin: 37px;
+  }
+  
+  
+  .topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .ninthdiv{
+    background-color: grey;
+    top: 925px;
+    left: 200px;
+    width: 215px;
+    height:10px; 
+    position: absolute;
+
+}
+.tenthdiv{
+    background-color: grey;
+    top: 925px;
+    left: 200px;
+    width: 215px;
+    height:10px; 
+    position: absolute;
+    left: 450px;
+
+}
+.elevendiv{
+    background-color: grey;
+    top: 925px;
+    left: 200px;
+    width: 215px;
+    height:10px; 
+    position: absolute;
+    left: 700px;
+
+}
+.twelvediv{
+    background-color:grey;
+    top: 925px;
+    left: 200px;
+    width: 215px;
+    height:10px; 
+    position: absolute;
+    left: 950px;
+
+}
+
+  
+  
+ 
+
+
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
